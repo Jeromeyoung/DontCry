@@ -8,7 +8,7 @@ This utility allows machines infected by the WannaCry ransomware to recover thei
 
 The primes extraction method is based on Adrien Guinet's [wannakey](https://github.com/aguinet/wannakey) which consist of scanning the WannaCry process memory to recover the prime numbers that were not cleaned during CryptReleaseContext().
 
-## Limitations
+## Limitations of wanakiwi
 Given the fact this method relies on scanning the address space of the process that generated those keys, this means that if this process had been killed by, for instance, a reboot - the original process memory will be lost. It is very important for users to *NOT* reboot their system before trying this tool.
 
 Secondly, because of the same reason we do not know how long the prime numbers will be kept in the address space before being reused by the process. This is why it is important to try this utility ASAP.
