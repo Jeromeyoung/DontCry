@@ -1,7 +1,7 @@
 cd "\directory\"
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\WanaCrypt0r /f
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /va /f
-TIdontCRY.exe
+TI.exe
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /va /f
 SC DELETE mssecsvc2.0
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /va /f
